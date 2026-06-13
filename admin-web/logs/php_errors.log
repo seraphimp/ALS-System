@@ -1,0 +1,38 @@
+[01-Apr-2026 14:05:03 UTC] QR code saved successfully: /home/u751659586/domains/als-system.online/public_html/als/admin-web/qrcodes/ALS-2026-066.png
+[01-Apr-2026 14:05:03 UTC] Saving QR code path to database: /als/admin-web/qrcodes/ALS-2026-066.png
+[06-Apr-2026 13:43:33 UTC] QR code saved successfully: /home/u751659586/domains/als-system.online/public_html/als/admin-web/qrcodes/ALS-2026-071.png
+[06-Apr-2026 13:43:33 UTC] Saving QR code path to database: /als/admin-web/qrcodes/ALS-2026-071.png
+[07-Apr-2026 06:43:17 UTC] QR code saved successfully: /home/u751659586/domains/als-system.online/public_html../qrcodes/ALS-2026-076.png
+[07-Apr-2026 06:43:17 UTC] Saving QR code path to database: /als/admin-web/qrcodes/ALS-2026-076.png
+[07-Apr-2026 06:43:18 UTC] QR code saved successfully: /home/u751659586/domains/als-system.online/public_html../qrcodes/ALS-2026-077.png
+[07-Apr-2026 06:43:18 UTC] Saving QR code path to database: /als/admin-web/qrcodes/ALS-2026-077.png
+[07-Apr-2026 06:47:06 UTC] QR code saved successfully: /home/u751659586/domains/als-system.online/public_html../qrcodes/ALS-2026-078.png
+[07-Apr-2026 06:47:06 UTC] Saving QR code path to database: /als/admin-web/qrcodes/ALS-2026-078.png
+[08-Apr-2026 00:55:15 UTC] PHP Warning:  require(/home/u751659586/domains/als-system.online/public_html/als/api/students/config.php): Failed to open stream: No such file or directory in /home/u751659586/domains/als-system.online/public_html/als/api/students/students-login.php on line 6
+[08-Apr-2026 00:55:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u751659586/domains/als-system.online/public_html/als/api/students/config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u751659586/domains/als-system.online/public_html/als/api/students/students-login.php:6
+Stack trace:
+#0 /home/u751659586/domains/als-system.online/public_html/als/api/index.php(282): require_once()
+#1 {main}
+  thrown in /home/u751659586/domains/als-system.online/public_html/als/api/students/students-login.php on line 6
+[08-Apr-2026 14:26:12 UTC] QR code saved successfully: /home/u751659586/domains/als-system.online/public_html../qrcodes/ALS-2026-080.png
+[08-Apr-2026 14:26:12 UTC] Saving QR code path to database: /als/admin-web/qrcodes/ALS-2026-080.png
+[08-Apr-2026 14:32:01 UTC] QR code saved successfully: /home/u751659586/domains/als-system.online/public_html../qrcodes/ALS-2026-081.png
+[08-Apr-2026 14:32:01 UTC] Saving QR code path to database: ../qrcodes/ALS-2026-081.png
+[08-Apr-2026 14:35:06 UTC] PHP Warning:  Undefined variable $qr_dir in /home/u751659586/domains/als-system.online/public_html/als/api/enroll.php on line 126
+[08-Apr-2026 14:35:06 UTC] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/u751659586/domains/als-system.online/public_html/als/api/enroll.php on line 126
+[08-Apr-2026 14:35:06 UTC] PHP Warning:  Undefined variable $qr_dir in /home/u751659586/domains/als-system.online/public_html/als/api/enroll.php on line 127
+[08-Apr-2026 14:35:06 UTC] PHP Deprecated:  mkdir(): Passing null to parameter #1 ($directory) of type string is deprecated in /home/u751659586/domains/als-system.online/public_html/als/api/enroll.php on line 127
+[08-Apr-2026 14:35:06 UTC] PHP Warning:  mkdir(): Invalid path in /home/u751659586/domains/als-system.online/public_html/als/api/enroll.php on line 127
+[08-Apr-2026 14:35:06 UTC] PHP Warning:  Undefined variable $qr_dir in /home/u751659586/domains/als-system.online/public_html/als/api/enroll.php on line 128
+[08-Apr-2026 14:35:06 UTC] Failed to create directory: 
+[08-Apr-2026 14:35:06 UTC] Saving QR code path to database: null
+[08-Apr-2026 14:42:50 UTC] QR code saved successfully: /home/u751659586/domains/als-system.online/public_html/als/qrcodes/ALS-2026-002.png
+[08-Apr-2026 14:42:50 UTC] Saving QR code filename to database: ALS-2026-002.png
+[08-Apr-2026 14:56:40 UTC] QR code saved successfully: ../qrcodes/Qr.png
+[08-Apr-2026 15:01:18 UTC] QR code saved successfully: ../qrcodes/ALS-2026-004.png
+[08-Apr-2026 15:09:37 UTC] QR code saved successfully: ../admin-web/qrcodes/ALS-2026-005.png
+[08-Apr-2026 18:47:33 UTC] QR code saved successfully: ../admin-web/qrcodes/ALS-2026-006.png
+[08-Apr-2026 18:50:51 UTC] QR code saved successfully: ../admin-web/qrcodes/ALS-2026-007.png
+[08-Apr-2026 19:15:27 UTC] QR code saved successfully: ../admin-web/qrcodes/ALS-2026-008.png
+[08-Apr-2026 22:38:50 UTC] QR code saved successfully: ../admin-web/qrcodes/ALS-2026-009.png
+[08-Apr-2026 22:43:51 UTC] QR code saved successfully: ../admin-web/qrcodes/ALS-2026-010.png

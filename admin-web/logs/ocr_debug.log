@@ -1,0 +1,325 @@
+=== OCR Debug Log Started 2026-04-08 07:06:36 ===
+2026-04-08 07:06:45 - Checking OCR.space API status...
+2026-04-08 07:06:46 - API Status Check - HTTP: 200, OCRExitCode: 99
+2026-04-08 07:06:46 - Processing front ID: id_front_69d521043fbc0.jpg
+2026-04-08 07:06:46 - ========================================
+2026-04-08 07:06:46 - OCR Request Started
+2026-04-08 07:06:46 - File: id_front_69d521043fbc0.jpg
+2026-04-08 07:06:46 - File size: 2.01 MB
+2026-04-08 07:06:46 - Image dimensions: 3264x1840, Type: image/jpeg
+2026-04-08 07:06:46 - Preprocessing image: 3264x1840
+2026-04-08 07:06:46 - Resized image to: 2500x1409
+2026-04-08 07:06:46 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5fe8673d0f.jpg
+2026-04-08 07:06:46 - Using preprocessed image, size: 0.59 MB
+2026-04-08 07:06:46 - ---
+2026-04-08 07:06:46 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:06:46 - MIME type: image/jpeg
+2026-04-08 07:06:48 - API Call - HTTP: 200, Time: 1.51s
+2026-04-08 07:06:48 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:06:48 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:06:48 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:06:48 - ---
+2026-04-08 07:06:48 - Trying: Engine 1, Language: eng
+2026-04-08 07:06:48 - MIME type: image/jpeg
+2026-04-08 07:06:52 - API Call - HTTP: 200, Time: 4.01s
+2026-04-08 07:06:52 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:06:52 - Parsed result 0: 423 chars
+2026-04-08 07:06:52 - Total extracted text: 421 characters from 1 results
+2026-04-08 07:06:52 - SUCCESS! Got 421 characters
+2026-04-08 07:06:52 - ========================================
+2026-04-08 07:06:52 - OCR SUCCESS - Extracted 421 characters
+2026-04-08 07:06:52 - Text preview: REPUBLIKA NG PILIPINAS Republic of the Philippines PAMBANSANG PAGKAKAklLANLAN 8hilipmne Idéntification 5235-4918-0796-7586 u G PILIPINASREP!JULIKANGPILIPIN'.- Apelyido/LastMåme CURATO ASPS 
+2026-04-08 07:06:52 - ========================================
+2026-04-08 07:06:52 - Name matching: CURATO, JOHN VINCENT - Score: 100, Matched: YES
+2026-04-08 07:06:52 - DOB components found (partial)
+2026-04-08 07:06:52 - Processing back ID: id_back_69d521045a0dd.jpg
+2026-04-08 07:06:52 - ========================================
+2026-04-08 07:06:52 - OCR Request Started
+2026-04-08 07:06:52 - File: id_back_69d521045a0dd.jpg
+2026-04-08 07:06:52 - File size: 1.74 MB
+2026-04-08 07:06:52 - Image dimensions: 3264x1840, Type: image/jpeg
+2026-04-08 07:06:52 - Preprocessing image: 3264x1840
+2026-04-08 07:06:52 - Resized image to: 2500x1409
+2026-04-08 07:06:52 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5fe8cd286e.jpg
+2026-04-08 07:06:52 - Using preprocessed image, size: 0.48 MB
+2026-04-08 07:06:52 - ---
+2026-04-08 07:06:52 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:06:52 - MIME type: image/jpeg
+2026-04-08 07:06:54 - API Call - HTTP: 200, Time: 1.45s
+2026-04-08 07:06:54 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:06:54 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:06:54 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:06:54 - ---
+2026-04-08 07:06:54 - Trying: Engine 1, Language: eng
+2026-04-08 07:06:54 - Rate limit reached, waiting 58.046854019165 seconds...
+2026-04-08 07:07:53 - MIME type: image/jpeg
+2026-04-08 07:07:57 - API Call - HTTP: 200, Time: 3.65s
+2026-04-08 07:07:57 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:07:57 - Parsed result 0: 213 chars
+2026-04-08 07:07:57 - Total extracted text: 211 characters from 1 results
+2026-04-08 07:07:57 - SUCCESS! Got 211 characters
+2026-04-08 07:07:57 - ========================================
+2026-04-08 07:07:57 - OCR SUCCESS - Extracted 211 characters
+2026-04-08 07:07:57 - Text preview: Araw ng pagkakaioob/Date 03 AUGUST 2022 Kasarian/Sex MALE UdjFlkK8WK Kala a ang Sibil/Marita/ Sik6LE Lugar ng Kapanga09k'q.O' CITY OF TAGUIG;Å FOURTH DISTRICT /flound, éarest PSA Office.
+2026-04-08 07:07:57 - ========================================
+2026-04-08 07:07:57 - Name matching: CURATO, JOHN VINCENT - Score: 20, Matched: NO
+2026-04-08 07:07:57 - DOB not found: 2005-04-07
+2026-04-08 07:08:05 - Checking OCR.space API status...
+2026-04-08 07:08:06 - API Status Check - HTTP: 200, OCRExitCode: 99
+2026-04-08 07:08:06 - Processing front ID: id_front_69d521043fbc0.jpg
+2026-04-08 07:08:06 - ========================================
+2026-04-08 07:08:06 - OCR Request Started
+2026-04-08 07:08:06 - File: id_front_69d521043fbc0.jpg
+2026-04-08 07:08:06 - File size: 2.01 MB
+2026-04-08 07:08:06 - Image dimensions: 3264x1840, Type: image/jpeg
+2026-04-08 07:08:06 - Preprocessing image: 3264x1840
+2026-04-08 07:08:06 - Resized image to: 2500x1409
+2026-04-08 07:08:06 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5fed690d30.jpg
+2026-04-08 07:08:06 - Using preprocessed image, size: 0.59 MB
+2026-04-08 07:08:06 - ---
+2026-04-08 07:08:06 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:08:06 - MIME type: image/jpeg
+2026-04-08 07:08:08 - API Call - HTTP: 200, Time: 1.52s
+2026-04-08 07:08:08 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:08:08 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:08:08 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:08:08 - ---
+2026-04-08 07:08:08 - Trying: Engine 1, Language: eng
+2026-04-08 07:08:08 - MIME type: image/jpeg
+2026-04-08 07:08:12 - API Call - HTTP: 200, Time: 4s
+2026-04-08 07:08:12 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:08:12 - Parsed result 0: 423 chars
+2026-04-08 07:08:12 - Total extracted text: 421 characters from 1 results
+2026-04-08 07:08:12 - SUCCESS! Got 421 characters
+2026-04-08 07:08:12 - ========================================
+2026-04-08 07:08:12 - OCR SUCCESS - Extracted 421 characters
+2026-04-08 07:08:12 - Text preview: REPUBLIKA NG PILIPINAS Republic of the Philippines PAMBANSANG PAGKAKAklLANLAN 8hilipmne Idéntification 5235-4918-0796-7586 u G PILIPINASREP!JULIKANGPILIPIN'.- Apelyido/LastMåme CURATO ASPS 
+2026-04-08 07:08:12 - ========================================
+2026-04-08 07:08:12 - Name matching: CURATO, JOHN VINCENT - Score: 100, Matched: YES
+2026-04-08 07:08:12 - DOB components found (partial)
+2026-04-08 07:08:12 - Processing back ID: id_back_69d521045a0dd.jpg
+2026-04-08 07:08:12 - ========================================
+2026-04-08 07:08:12 - OCR Request Started
+2026-04-08 07:08:12 - File: id_back_69d521045a0dd.jpg
+2026-04-08 07:08:12 - File size: 1.74 MB
+2026-04-08 07:08:12 - Image dimensions: 3264x1840, Type: image/jpeg
+2026-04-08 07:08:12 - Preprocessing image: 3264x1840
+2026-04-08 07:08:12 - Resized image to: 2500x1409
+2026-04-08 07:08:13 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5fedd0514c.jpg
+2026-04-08 07:08:13 - Using preprocessed image, size: 0.48 MB
+2026-04-08 07:08:13 - ---
+2026-04-08 07:08:13 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:08:13 - MIME type: image/jpeg
+2026-04-08 07:08:14 - API Call - HTTP: 200, Time: 1.45s
+2026-04-08 07:08:14 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:08:14 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:08:14 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:08:14 - ---
+2026-04-08 07:08:14 - Trying: Engine 1, Language: eng
+2026-04-08 07:08:14 - Rate limit reached, waiting 58.047781944275 seconds...
+2026-04-08 07:09:11 - Checking OCR.space API status...
+2026-04-08 07:09:12 - API Status Check - HTTP: 200, OCRExitCode: 99
+2026-04-08 07:09:12 - Processing front ID: id_front_69d5fa69a3a06.jpg
+2026-04-08 07:09:12 - ========================================
+2026-04-08 07:09:12 - OCR Request Started
+2026-04-08 07:09:12 - File: id_front_69d5fa69a3a06.jpg
+2026-04-08 07:09:12 - File size: 2.36 MB
+2026-04-08 07:09:12 - Image dimensions: 2067x1288, Type: image/jpeg
+2026-04-08 07:09:12 - Preprocessing image: 2067x1288
+2026-04-08 07:09:12 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5ff184c87b.jpg
+2026-04-08 07:09:12 - Using preprocessed image, size: 0.32 MB
+2026-04-08 07:09:12 - ---
+2026-04-08 07:09:12 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:09:12 - MIME type: image/jpeg
+2026-04-08 07:09:13 - API Call - HTTP: 200, Time: 1.34s
+2026-04-08 07:09:13 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:09:13 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:09:13 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:09:13 - MIME type: image/jpeg
+2026-04-08 07:09:14 - ---
+2026-04-08 07:09:14 - Trying: Engine 1, Language: eng
+2026-04-08 07:09:14 - MIME type: image/jpeg
+2026-04-08 07:09:17 - API Call - HTTP: 200, Time: 2.92s
+2026-04-08 07:09:17 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:09:17 - Parsed result 0: 146 chars
+2026-04-08 07:09:17 - Total extracted text: 144 characters from 1 results
+2026-04-08 07:09:17 - SUCCESS! Got 144 characters
+2026-04-08 07:09:17 - ========================================
+2026-04-08 07:09:17 - OCR SUCCESS - Extracted 144 characters
+2026-04-08 07:09:17 - Text preview: CENTRAL PHILIPPiNESSTAtE UNIVERSITY CL03 ' Hil',tcnucupcs ZOE DAWN S. DOUETE Bachelor of Science in Information Technology Student I.D. No
+2026-04-08 07:09:17 - ========================================
+2026-04-08 07:09:17 - Name matching: DOLLETE, ZOE DAWN - Score: 72, Matched: YES
+2026-04-08 07:09:17 - DOB not found: 2002-03-30
+2026-04-08 07:09:17 - Processing back ID: id_back_69d5fa69d75af.jpg
+2026-04-08 07:09:17 - ========================================
+2026-04-08 07:09:17 - OCR Request Started
+2026-04-08 07:09:17 - File: id_back_69d5fa69d75af.jpg
+2026-04-08 07:09:17 - File size: 3.7 MB
+2026-04-08 07:09:17 - Image dimensions: 4096x3072, Type: image/jpeg
+2026-04-08 07:09:17 - Preprocessing image: 4096x3072
+2026-04-08 07:09:17 - Resized image to: 2500x1875
+2026-04-08 07:09:17 - API Call - HTTP: 200, Time: 3.65s
+2026-04-08 07:09:17 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:09:17 - Parsed result 0: 213 chars
+2026-04-08 07:09:17 - Total extracted text: 211 characters from 1 results
+2026-04-08 07:09:17 - SUCCESS! Got 211 characters
+2026-04-08 07:09:17 - ========================================
+2026-04-08 07:09:17 - OCR SUCCESS - Extracted 211 characters
+2026-04-08 07:09:17 - Text preview: Araw ng pagkakaioob/Date 03 AUGUST 2022 Kasarian/Sex MALE UdjFlkK8WK Kala a ang Sibil/Marita/ Sik6LE Lugar ng Kapanga09k'q.O' CITY OF TAGUIG;Å FOURTH DISTRICT /flound, éarest PSA Office.
+2026-04-08 07:09:17 - ========================================
+2026-04-08 07:09:17 - Name matching: CURATO, JOHN VINCENT - Score: 20, Matched: NO
+2026-04-08 07:09:17 - DOB not found: 2005-04-07
+2026-04-08 07:09:17 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5ff1d9d4b5.jpg
+2026-04-08 07:09:17 - Using preprocessed image, size: 0.59 MB
+2026-04-08 07:09:17 - ---
+2026-04-08 07:09:17 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:09:17 - MIME type: image/jpeg
+2026-04-08 07:09:17 - Checking OCR.space API status...
+2026-04-08 07:09:18 - API Status Check - HTTP: 200, OCRExitCode: 99
+2026-04-08 07:09:18 - Processing front ID: id_front_69d521043fbc0.jpg
+2026-04-08 07:09:18 - ========================================
+2026-04-08 07:09:18 - OCR Request Started
+2026-04-08 07:09:18 - File: id_front_69d521043fbc0.jpg
+2026-04-08 07:09:18 - File size: 2.01 MB
+2026-04-08 07:09:18 - Image dimensions: 3264x1840, Type: image/jpeg
+2026-04-08 07:09:18 - Preprocessing image: 3264x1840
+2026-04-08 07:09:18 - Resized image to: 2500x1409
+2026-04-08 07:09:18 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5ff1e9e3b6.jpg
+2026-04-08 07:09:18 - Using preprocessed image, size: 0.59 MB
+2026-04-08 07:09:18 - ---
+2026-04-08 07:09:18 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:09:18 - MIME type: image/jpeg
+2026-04-08 07:09:19 - API Call - HTTP: 200, Time: 1.51s
+2026-04-08 07:09:19 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:09:19 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:09:19 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:09:19 - ---
+2026-04-08 07:09:19 - Trying: Engine 1, Language: eng
+2026-04-08 07:09:19 - Rate limit reached, waiting 57.99148607254 seconds...
+2026-04-08 07:09:20 - API Call - HTTP: 200, Time: 1.5s
+2026-04-08 07:09:20 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:09:20 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:09:20 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:09:20 - ---
+2026-04-08 07:09:20 - Trying: Engine 1, Language: eng
+2026-04-08 07:09:20 - MIME type: image/jpeg
+2026-04-08 07:09:24 - API Call - HTTP: 200, Time: 3.99s
+2026-04-08 07:09:24 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:09:24 - Parsed result 0: 423 chars
+2026-04-08 07:09:24 - Total extracted text: 421 characters from 1 results
+2026-04-08 07:09:24 - SUCCESS! Got 421 characters
+2026-04-08 07:09:24 - ========================================
+2026-04-08 07:09:24 - OCR SUCCESS - Extracted 421 characters
+2026-04-08 07:09:24 - Text preview: REPUBLIKA NG PILIPINAS Republic of the Philippines PAMBANSANG PAGKAKAklLANLAN 8hilipmne Idéntification 5235-4918-0796-7586 u G PILIPINASREP!JULIKANGPILIPIN'.- Apelyido/LastMåme CURATO ASPS 
+2026-04-08 07:09:24 - ========================================
+2026-04-08 07:09:24 - Name matching: CURATO, JOHN VINCENT - Score: 100, Matched: YES
+2026-04-08 07:09:24 - DOB components found (partial)
+2026-04-08 07:09:24 - Processing back ID: id_back_69d521045a0dd.jpg
+2026-04-08 07:09:24 - ========================================
+2026-04-08 07:09:24 - OCR Request Started
+2026-04-08 07:09:24 - File: id_back_69d521045a0dd.jpg
+2026-04-08 07:09:24 - File size: 1.74 MB
+2026-04-08 07:09:24 - Image dimensions: 3264x1840, Type: image/jpeg
+2026-04-08 07:09:24 - Preprocessing image: 3264x1840
+2026-04-08 07:09:24 - Resized image to: 2500x1409
+2026-04-08 07:09:25 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5ff2500e79.jpg
+2026-04-08 07:09:25 - Using preprocessed image, size: 0.48 MB
+2026-04-08 07:09:25 - ---
+2026-04-08 07:09:25 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:09:25 - MIME type: image/jpeg
+2026-04-08 07:09:26 - API Call - HTTP: 200, Time: 1.47s
+2026-04-08 07:09:26 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:09:26 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:09:26 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:09:26 - ---
+2026-04-08 07:09:26 - Trying: Engine 1, Language: eng
+2026-04-08 07:09:26 - Rate limit reached, waiting 58.024897098541 seconds...
+2026-04-08 07:10:17 - MIME type: image/jpeg
+2026-04-08 07:10:21 - API Call - HTTP: 200, Time: 4.02s
+2026-04-08 07:10:21 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:10:21 - Parsed result 0: 588 chars
+2026-04-08 07:10:21 - Total extracted text: 586 characters from 1 results
+2026-04-08 07:10:21 - SUCCESS! Got 586 characters
+2026-04-08 07:10:21 - ========================================
+2026-04-08 07:10:21 - OCR SUCCESS - Extracted 586 characters
+2026-04-08 07:10:21 - Text preview: INS SuperHghPedormanceVldeoCard Double mode graphicscard Backfi#t screen SOUND Contact Person Mario Douctc Address Purok 4 Garg$aio, iiinigaran. Neos (kkidff'tal Date of Birth march 30, 2002
+2026-04-08 07:10:21 - ========================================
+2026-04-08 07:10:21 - Name matching: DOLLETE, ZOE DAWN - Score: 20, Matched: NO
+2026-04-08 07:10:21 - DOB found: 'March 30, 2002'
+2026-04-08 07:10:25 - MIME type: image/jpeg
+2026-04-08 07:10:29 - API Call - HTTP: 200, Time: 3.64s
+2026-04-08 07:10:29 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:10:29 - Parsed result 0: 213 chars
+2026-04-08 07:10:29 - Total extracted text: 211 characters from 1 results
+2026-04-08 07:10:29 - SUCCESS! Got 211 characters
+2026-04-08 07:10:29 - ========================================
+2026-04-08 07:10:29 - OCR SUCCESS - Extracted 211 characters
+2026-04-08 07:10:29 - Text preview: Araw ng pagkakaioob/Date 03 AUGUST 2022 Kasarian/Sex MALE UdjFlkK8WK Kala a ang Sibil/Marita/ Sik6LE Lugar ng Kapanga09k'q.O' CITY OF TAGUIG;Å FOURTH DISTRICT /flound, éarest PSA Office.
+2026-04-08 07:10:29 - ========================================
+2026-04-08 07:10:29 - Name matching: CURATO, JOHN VINCENT - Score: 20, Matched: NO
+2026-04-08 07:10:29 - DOB not found: 2005-04-07
+2026-04-08 07:10:29 - Checking OCR.space API status...
+2026-04-08 07:10:30 - API Status Check - HTTP: 200, OCRExitCode: 99
+2026-04-08 07:10:30 - Processing front ID: id_front_69d521043fbc0.jpg
+2026-04-08 07:10:30 - ========================================
+2026-04-08 07:10:30 - OCR Request Started
+2026-04-08 07:10:30 - File: id_front_69d521043fbc0.jpg
+2026-04-08 07:10:30 - File size: 2.01 MB
+2026-04-08 07:10:30 - Image dimensions: 3264x1840, Type: image/jpeg
+2026-04-08 07:10:30 - Preprocessing image: 3264x1840
+2026-04-08 07:10:30 - Resized image to: 2500x1409
+2026-04-08 07:10:30 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5ff66a06c1.jpg
+2026-04-08 07:10:30 - Using preprocessed image, size: 0.59 MB
+2026-04-08 07:10:30 - ---
+2026-04-08 07:10:30 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:10:30 - MIME type: image/jpeg
+2026-04-08 07:10:32 - API Call - HTTP: 200, Time: 1.5s
+2026-04-08 07:10:32 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:10:32 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:10:32 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:10:32 - ---
+2026-04-08 07:10:32 - Trying: Engine 1, Language: eng
+2026-04-08 07:10:32 - MIME type: image/jpeg
+2026-04-08 07:10:36 - API Call - HTTP: 200, Time: 4s
+2026-04-08 07:10:36 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:10:36 - Parsed result 0: 423 chars
+2026-04-08 07:10:36 - Total extracted text: 421 characters from 1 results
+2026-04-08 07:10:36 - SUCCESS! Got 421 characters
+2026-04-08 07:10:36 - ========================================
+2026-04-08 07:10:36 - OCR SUCCESS - Extracted 421 characters
+2026-04-08 07:10:36 - Text preview: REPUBLIKA NG PILIPINAS Republic of the Philippines PAMBANSANG PAGKAKAklLANLAN 8hilipmne Idéntification 5235-4918-0796-7586 u G PILIPINASREP!JULIKANGPILIPIN'.- Apelyido/LastMåme CURATO ASPS 
+2026-04-08 07:10:36 - ========================================
+2026-04-08 07:10:36 - Name matching: CURATO, JOHN VINCENT - Score: 100, Matched: YES
+2026-04-08 07:10:36 - DOB components found (partial)
+2026-04-08 07:10:36 - Processing back ID: id_back_69d521045a0dd.jpg
+2026-04-08 07:10:36 - ========================================
+2026-04-08 07:10:36 - OCR Request Started
+2026-04-08 07:10:36 - File: id_back_69d521045a0dd.jpg
+2026-04-08 07:10:36 - File size: 1.74 MB
+2026-04-08 07:10:36 - Image dimensions: 3264x1840, Type: image/jpeg
+2026-04-08 07:10:36 - Preprocessing image: 3264x1840
+2026-04-08 07:10:36 - Resized image to: 2500x1409
+2026-04-08 07:10:37 - Preprocessed image saved to: /tmp/ocr_preprocessed_69d5ff6d0e63b.jpg
+2026-04-08 07:10:37 - Using preprocessed image, size: 0.48 MB
+2026-04-08 07:10:37 - ---
+2026-04-08 07:10:37 - Trying: Engine 1, Language: eng+fil
+2026-04-08 07:10:37 - MIME type: image/jpeg
+2026-04-08 07:10:38 - API Call - HTTP: 200, Time: 1.45s
+2026-04-08 07:10:38 - OCR Exit Code: 99, IsErrored: true
+2026-04-08 07:10:38 - OCR Processing Error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:10:38 - Failed: OCR error: E201: Value for parameter 'language' is invalid
+2026-04-08 07:10:39 - ---
+2026-04-08 07:10:39 - Trying: Engine 1, Language: eng
+2026-04-08 07:10:39 - Rate limit reached, waiting 58.046463012695 seconds...
+2026-04-08 07:11:38 - MIME type: image/jpeg
+2026-04-08 07:11:41 - API Call - HTTP: 200, Time: 3.64s
+2026-04-08 07:11:41 - OCR Exit Code: 1, IsErrored: false
+2026-04-08 07:11:41 - Parsed result 0: 213 chars
+2026-04-08 07:11:41 - Total extracted text: 211 characters from 1 results
+2026-04-08 07:11:41 - SUCCESS! Got 211 characters
+2026-04-08 07:11:41 - ========================================
+2026-04-08 07:11:41 - OCR SUCCESS - Extracted 211 characters
+2026-04-08 07:11:41 - Text preview: Araw ng pagkakaioob/Date 03 AUGUST 2022 Kasarian/Sex MALE UdjFlkK8WK Kala a ang Sibil/Marita/ Sik6LE Lugar ng Kapanga09k'q.O' CITY OF TAGUIG;Å FOURTH DISTRICT /flound, éarest PSA Office.
+2026-04-08 07:11:41 - ========================================
+2026-04-08 07:11:41 - Name matching: CURATO, JOHN VINCENT - Score: 20, Matched: NO
+2026-04-08 07:11:41 - DOB not found: 2005-04-07

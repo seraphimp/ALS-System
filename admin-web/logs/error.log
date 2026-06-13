@@ -1,0 +1,224 @@
+[24-Mar-2026 15:39:44 UTC] PHP Fatal error:  Cannot redeclare secure_session_start() (previously declared in /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php:447) in /home/u751659586/domains/als-system.online/public_html/als/admin-web/includes/functions.php on line 3
+[24-Mar-2026 15:56:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u751659586_alssystem.preregistration_analysis' doesn't exist in /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php:825
+Stack trace:
+#0 /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php(825): mysqli->prepare()
+#1 /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php(998): PreregistrationManager->getList()
+#2 {main}
+  thrown in /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php on line 825
+[24-Mar-2026 15:56:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u751659586_alssystem.preregistration_analysis' doesn't exist in /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php:825
+Stack trace:
+#0 /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php(825): mysqli->prepare()
+#1 /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php(998): PreregistrationManager->getList()
+#2 {main}
+  thrown in /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php on line 825
+[26-Mar-2026 01:20:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php:628
+Stack trace:
+#0 /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php(628): mysqli->prepare()
+#1 /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php(605): PreregistrationManager->getTotalCount()
+#2 /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php(803): PreregistrationManager->getList()
+#3 {main}
+  thrown in /home/u751659586/domains/als-system.online/public_html/als/admin-web/preregistrations.php on line 628
+[26-Mar-2026 01:39:22 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 01:39:22 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 01:39:22 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 01:39:22 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 01:39:22 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 01:39:22 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 01:39:22 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 01:41:38 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 01:41:38 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 01:41:38 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 01:41:38 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 01:41:38 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 01:41:38 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 01:41:38 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 01:45:06 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 01:45:06 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 01:45:06 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 01:45:06 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 01:45:06 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 01:45:06 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 01:45:06 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 01:54:58 UTC] === AI Analysis for ID: 38 ===
+[26-Mar-2026 01:54:58 UTC] Selfie image field: selfie_69c2adb3d3ecb.jpg
+[26-Mar-2026 01:54:58 UTC] Valid ID image field: id_69c2adb3d4184.jpg
+[26-Mar-2026 01:54:58 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c2adb3d3ecb.jpg
+[26-Mar-2026 01:54:58 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c2adb3d3ecb.jpg
+[26-Mar-2026 01:54:58 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c2adb3d4184.jpg
+[26-Mar-2026 01:54:58 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c2adb3d4184.jpg
+[26-Mar-2026 02:00:54 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 02:00:54 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:00:54 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 02:00:54 UTC] Upload path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/
+[26-Mar-2026 02:00:54 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:00:54 UTC] Selfie web path: /uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:00:54 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:00:54 UTC] Selfie found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:00:54 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:00:54 UTC] Valid ID web path: /uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:00:54 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:00:54 UTC] Valid ID found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:01:10 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 02:01:10 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:01:10 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 02:01:10 UTC] Upload path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/
+[26-Mar-2026 02:01:10 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:01:10 UTC] Selfie web path: /uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:01:10 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:01:10 UTC] Selfie found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:01:10 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:01:10 UTC] Valid ID web path: /uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:01:10 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:01:10 UTC] Valid ID found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:04:06 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 02:04:06 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:04:06 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 02:04:06 UTC] Upload path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/
+[26-Mar-2026 02:04:06 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:04:06 UTC] Selfie web path: /uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:04:06 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:04:06 UTC] Selfie found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:04:06 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:04:06 UTC] Valid ID web path: /uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:04:06 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:04:06 UTC] Valid ID found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:05:28 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 02:05:28 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:05:28 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 02:05:28 UTC] Upload path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/
+[26-Mar-2026 02:05:28 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:05:28 UTC] Selfie web path: /uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:05:28 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:05:28 UTC] Selfie found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:05:28 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:05:28 UTC] Valid ID web path: /uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:05:28 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:05:28 UTC] Valid ID found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:08:00 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 02:08:00 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:08:00 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 02:08:00 UTC] Upload path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/
+[26-Mar-2026 02:08:00 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:08:00 UTC] Selfie web path: /uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:08:00 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:08:00 UTC] Selfie found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:08:00 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:08:00 UTC] Valid ID web path: /uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:08:00 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:08:00 UTC] Valid ID found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:10:07 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 02:10:07 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:10:07 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 02:10:07 UTC] Upload path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/
+[26-Mar-2026 02:10:07 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:10:07 UTC] Selfie web path: /uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:10:07 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:10:07 UTC] Selfie found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:10:07 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:10:07 UTC] Valid ID web path: /uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:10:07 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:10:07 UTC] Valid ID found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:14:29 UTC] === AI Analysis for ID: 40 ===
+[26-Mar-2026 02:14:29 UTC] Selfie image field: selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:14:29 UTC] Valid ID image field: id_69c48c202aca6.jpg
+[26-Mar-2026 02:14:29 UTC] Upload path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/
+[26-Mar-2026 02:14:29 UTC] Selfie path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:14:29 UTC] Selfie web path: /uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:14:29 UTC] Selfie file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:14:29 UTC] Selfie found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/selfie_69c48c202a9b5.jpg
+[26-Mar-2026 02:14:29 UTC] Valid ID path: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:14:29 UTC] Valid ID web path: /uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:14:29 UTC] Valid ID file NOT found: /home/u751659586/domains/als-system.online/public_html/als/admin-web/uploads/preregistration/id_69c48c202aca6.jpg
+[26-Mar-2026 02:14:29 UTC] Valid ID found at alternative path: /home/u751659586/domains/als-system.online/public_html/uploads/preregistration/id_69c48c202aca6.jpg
+[04-Apr-2026 08:31:58 UTC] ✅ Approval email SENT to: aldrinjadebadana@gmail.com for ID: 53
+[04-Apr-2026 08:34:38 UTC] ✅ Approval email SENT to: aldrinjadebadana@gmail.com for ID: 54
+[04-Apr-2026 08:44:10 UTC] Approval email to aldrinjadebadana@gmail.com (Verified: NO): SENT ✅
+[04-Apr-2026 08:46:51 UTC] Approval email to jhonvincent102005@gmail.com (Verified: NO): SENT ✅
+[04-Apr-2026 09:02:55 UTC] Approval email to jhonvincent102005@gmail.com (Verified: NO): SENT ✅
+[04-Apr-2026 09:13:47 UTC] Approval email to aldrinjadebadana@gmail.com (Verified: NO): SENT ✅
+[04-Apr-2026 09:16:20 UTC] Approval email to jhonvincent102005@gmail.com (Verified: 2026-04-04 09:16:13): SENT ✅
+[04-Apr-2026 09:24:57 UTC] Auto-approval check for ID 59: Name Match = YES, Score = 100
+[04-Apr-2026 09:24:57 UTC] Approval email to jhonvincent102005@gmail.com (Verified: NO): SENT ✅
+[04-Apr-2026 18:59:03 UTC] AutoApproval ID#60: score=92, fraud=low, dupes=no, name=ok, dob=ok, face=skipped, idStatus=present, selfie=poor_quality
+[04-Apr-2026 18:59:38 UTC] Approval email to jhonvincent102005@gmail.com: SENT ✅
+[06-Apr-2026 13:17:13 UTC] AutoApproval ID#61: score=72, fraud=low, dupes=yes, name=ok, dob=ok, face=skipped, idStatus=present, selfie=poor_quality
+[06-Apr-2026 13:17:13 UTC] AutoApproval ID#62: score=72, fraud=low, dupes=yes, name=ok, dob=ok, face=skipped, idStatus=present, selfie=poor_quality
+[06-Apr-2026 13:38:19 UTC] AutoApproval ID#63: score=92, fraud=low, dupes=no, name=ok, dob=ok, face=skipped, idStatus=present, selfie=poor_quality
+[06-Apr-2026 13:57:20 UTC] Approval email to jhonvincent102005@gmail.com: SENT ✅
+[06-Apr-2026 14:10:11 UTC] Approval email to jhonvincent102005@gmail.com: SENT ✅
+[07-Apr-2026 06:56:04 UTC] AutoApproval ID#64: score=100, fraud=low, dupes=no, name=ok, dob=ok, face=match, idStatus=present, selfie=present
+[07-Apr-2026 06:56:04 UTC] Approval email to zoyla010818@gmail.com: SENT ✅
+[07-Apr-2026 13:30:52 UTC] AutoApproval ID#65: score=100, fraud=low, dupes=no, name=ok, dob=ok, face=match, idStatus=present, selfie=present
+[07-Apr-2026 13:30:52 UTC] Approval email to rodolfocurato33@gmail.com: SENT ✅
+[07-Apr-2026 14:04:40 UTC] OCR.space error: Value for parameter 'isOverlayRequired' is invalid
+[07-Apr-2026 14:04:42 UTC] OCR.space error: Value for parameter 'isOverlayRequired' is invalid
+[07-Apr-2026 14:04:42 UTC] OCR Analysis ID#65: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 14:04:59 UTC] OCR.space error: Value for parameter 'isOverlayRequired' is invalid
+[07-Apr-2026 14:04:59 UTC] OCR Analysis ID#60: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 14:05:18 UTC] OCR.space error: Value for parameter 'isOverlayRequired' is invalid
+[07-Apr-2026 14:05:18 UTC] OCR Analysis ID#59: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 14:10:22 UTC] OCR.space error: Value for parameter 'isOverlayRequired' is invalid
+[07-Apr-2026 14:10:24 UTC] OCR.space error: Value for parameter 'isOverlayRequired' is invalid
+[07-Apr-2026 14:10:24 UTC] OCR Analysis ID#66: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 14:10:24 UTC] AutoApproval ID#66: score=100, fraud=low, dupes=no, ocr=[Name OCR skipped | DOB OCR skipped], face=pending_review, idStatus=present
+[07-Apr-2026 14:10:24 UTC] Approval email to johnvincent102005@gmail.com: SENT ✅
+[07-Apr-2026 14:10:36 UTC] OCR.space error: Value for parameter 'isOverlayRequired' is invalid
+[07-Apr-2026 14:10:38 UTC] OCR.space error: Value for parameter 'isOverlayRequired' is invalid
+[07-Apr-2026 14:10:38 UTC] OCR Analysis ID#66: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 14:17:39 UTC] OCR.space processing error (engine 2): Unable to recognize the file type | E216:Unable to detect the file extension, or the file extension is incorrect, and no 'file type' provided in request. Please provide a file with a proper content type or extension, or provide a file type in the request to manually set the file extension.
+[07-Apr-2026 14:17:41 UTC] OCR.space processing error (engine 2): Unable to recognize the file type | E216:Unable to detect the file extension, or the file extension is incorrect, and no 'file type' provided in request. Please provide a file with a proper content type or extension, or provide a file type in the request to manually set the file extension.
+[07-Apr-2026 14:17:41 UTC] OCR Analysis ID#66: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 14:23:09 UTC] OCR Analysis ID#66: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 14:41:07 UTC] OCR Analysis ID#66: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 14:41:51 UTC] OCR Analysis ID#65: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 14:42:05 UTC] OCR Analysis ID#60: Name NOT found on ID âœ— | DOB NOT found on ID âœ—
+[07-Apr-2026 14:43:32 UTC] OCR Analysis ID#52: Name verified via OCR âœ“ | DOB NOT found on ID âœ—
+[07-Apr-2026 15:06:25 UTC] OCR Analysis ID#57: Name NOT found on ID âœ— | DOB NOT found on ID âœ—
+[07-Apr-2026 15:11:13 UTC] OCR Analysis ID#67: Name verified via OCR âœ“ | DOB NOT found on ID âœ—
+[07-Apr-2026 15:11:13 UTC] AutoApproval ID#67: score=68, fraud=low, dupes=yes, ocr=[Name verified via OCR âœ“ | DOB NOT found on ID âœ—], face=skipped, idStatus=present
+[07-Apr-2026 15:11:31 UTC] OCR Analysis ID#67: Name verified via OCR âœ“ | DOB NOT found on ID âœ—
+[07-Apr-2026 15:13:10 UTC] OCR Analysis ID#67: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[07-Apr-2026 15:13:34 UTC] OCR Analysis ID#67: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[07-Apr-2026 15:17:11 UTC] OCR Analysis ID#67: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[07-Apr-2026 15:17:32 UTC] OCR Analysis ID#66: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 15:21:57 UTC] OCR Analysis ID#68: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 15:21:57 UTC] AutoApproval ID#68: score=0, fraud=low, dupes=no, ocr=[Name OCR skipped | DOB OCR skipped], face=skipped, idStatus=invalid
+[07-Apr-2026 15:22:07 UTC] OCR Analysis ID#68: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 15:28:18 UTC] OCR Analysis ID#67: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[07-Apr-2026 15:28:49 UTC] OCR Analysis ID#59: Name NOT found on ID ✗ | DOB NOT found on ID ✗
+[07-Apr-2026 15:29:13 UTC] OCR Analysis ID#65: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 15:32:50 UTC] OCR Analysis ID#59: Name NOT found on ID ✗ | DOB NOT found on ID ✗
+[07-Apr-2026 15:33:21 UTC] OCR Analysis ID#52: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[07-Apr-2026 15:38:58 UTC] OCR Analysis ID#66: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 15:39:17 UTC] OCR Analysis ID#68: Name OCR skipped | DOB OCR skipped
+[07-Apr-2026 15:39:39 UTC] OCR Analysis ID#68: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 03:33:06 UTC] OCR Analysis ID#68: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 03:33:21 UTC] OCR Analysis ID#67: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[08-Apr-2026 05:39:24 UTC] OCR Analysis ID#67: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[08-Apr-2026 06:13:00 UTC] OCR Analysis ID#69: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 06:13:00 UTC] AutoApproval ID#69: score=23, fraud=low, dupes=no, ocr=[Name OCR skipped | DOB OCR skipped], face=mismatch, idStatus=present
+[08-Apr-2026 06:13:14 UTC] OCR Analysis ID#69: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 06:20:35 UTC] OCR Analysis ID#70: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 06:20:35 UTC] AutoApproval ID#70: score=49, fraud=low, dupes=no, ocr=[Name OCR skipped | DOB OCR skipped], face=match, idStatus=present
+[08-Apr-2026 06:20:57 UTC] OCR Analysis ID#70: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 06:43:45 UTC] OCR Analysis ID#70: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 06:49:29 UTC] OCR Analysis ID#71: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 06:49:29 UTC] AutoApproval ID#71: score=46, fraud=low, dupes=no, ocr=[Name OCR skipped | DOB OCR skipped], face=match, idStatus=present
+[08-Apr-2026 06:49:47 UTC] OCR Analysis ID#71: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 06:56:37 UTC] OCR Analysis ID#59: Name NOT found on ID ✗ | DOB NOT found on ID ✗
+[08-Apr-2026 06:59:02 UTC] OCR Analysis ID#67: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[08-Apr-2026 07:03:08 UTC] OCR Analysis ID#68: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 07:03:23 UTC] OCR Analysis ID#67: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[08-Apr-2026 07:07:57 UTC] OCR Analysis ID#68: Name verified via OCR ✓ | DOB verified via OCR ✓
+[08-Apr-2026 07:09:17 UTC] OCR Analysis ID#68: Name verified via OCR ✓ | DOB verified via OCR ✓
+[08-Apr-2026 07:10:21 UTC] OCR Analysis ID#71: Name verified via OCR ✓ | DOB verified via OCR ✓
+[08-Apr-2026 07:10:29 UTC] OCR Analysis ID#68: Name verified via OCR ✓ | DOB verified via OCR ✓
+[08-Apr-2026 07:10:37 UTC] OCR Analysis ID#71: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 07:11:41 UTC] OCR Analysis ID#68: Name verified via OCR ✓ | DOB verified via OCR ✓
+[08-Apr-2026 07:11:49 UTC] OCR Analysis ID#68: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 07:22:05 UTC] OCR Analysis ID#67: Name verified via OCR ✓ | DOB NOT found on ID ✗
+[08-Apr-2026 13:06:39 UTC] OCR Analysis ID#71: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 13:26:48 UTC] OCR Analysis ID#71: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 13:40:47 UTC] OCR Analysis ID#71: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 14:21:38 UTC] OCR Analysis ID#66: Name OCR skipped | DOB OCR skipped
+[08-Apr-2026 16:19:00 UTC] Approval email to martinsecatinjake@gmail.com: SENT
